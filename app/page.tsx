@@ -1,5 +1,7 @@
-import { SideBar } from "./components/SideBar";
+import { SideBar } from "./components/sidebar/SideBar";
 
-export default function Home() {
+const Home = () => {
  return <SideBar />;
-}
+};
+
+export default Home;
