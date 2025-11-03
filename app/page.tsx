@@ -1,11 +1,7 @@
-import ScrollProgressBar from "./components/ScrollProgressBar";
+import CardContainer from "./components/HorizontalScrollCarousel/CardContainer";
 
 const Home = () => {
- return (
-  <div className="h-[300vh]">
-   <ScrollProgressBar />
-  </div>
- );
+ return <CardContainer />;
 };
 
 export default Home;
