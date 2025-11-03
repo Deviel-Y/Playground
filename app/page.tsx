@@ -1,12 +1,9 @@
-import AnimatedLink from "./components/AnimatedLink";
+import ScrollProgressBar from "./components/ScrollProgressBar";
 
 const Home = () => {
  return (
-  <div className="flex flex-col gap-4 h-screen items-center justify-center">
-   '<AnimatedLink href="#">instagram</AnimatedLink>
-   <AnimatedLink href="#">facebook</AnimatedLink>
-   <AnimatedLink href="#">twitter</AnimatedLink>
-   <AnimatedLink href="#">linkedin</AnimatedLink>
+  <div className="h-[300vh]">
+   <ScrollProgressBar />
   </div>
  );
 };
