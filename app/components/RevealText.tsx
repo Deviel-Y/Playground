@@ -40,7 +40,7 @@ const RevealText = ({ children, width = "w-fit" }: Props) => {
         variants={{ hidden: { left: 0 }, visible: { left: "100%" } }}
         initial="hidden"
         animate={slideControl}
-        transition={{ duration: 0.3, delay: 0.25 }}
+        transition={{ duration: 0.5, delay: 0.25 }}
       />
     </div>
   );
