@@ -1,11 +1,7 @@
-import RevealText from "./components/RevealText";
+import { SmoothScrollHero } from "./components/SmoothScrollHero";
 
 const Home = () => {
-  return (
-    <RevealText>
-      <p className="text-6xl font-black uppercase">This is a text</p>
-    </RevealText>
-  );
+  return <SmoothScrollHero />;
 };
 
 export default Home;
